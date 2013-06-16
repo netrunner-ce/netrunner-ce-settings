@@ -1,0 +1,9 @@
+config/*	etc/skel/config/
+local/*	etc/skel/.local/
+skel/*	etc/skel/
+skel/.qmmp	etc/skel/
+skel/.gimp-2.8/*	etc/skel/.gimp-2.8/
+skel/.webapps/*	etc/skel/.webapps/
+skel/.winff/*	etc/skel/.winff/
+lsb-release	etc/
+

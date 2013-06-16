@@ -1,0 +1,9 @@
+[Desktop Entry]
+Exec=firefox -P prism -new-tab http://wearehunted.com/a/#/genre/pop
+Generic Name=Music Charts
+Icon=/usr/share/icons/Netrunner/scalable/apps/Icon-wearehunted.png
+Name=We are hunted
+NoDisplay=false
+StartupNotify=true
+Type=Application
+Hidden=false

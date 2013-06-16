@@ -1,0 +1,16 @@
+Source: netrunner-settings
+Section: kde
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.9.2ubuntu14)
+Standards-Version: 3.9.4
+
+Package: netrunner-settings-desktop
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, python, ttf-ubuntu-font-family,
+ libnewt0.52 (>= 0.52.11-2ubuntu7), netrunner-ce-default-wallpaper, netrunner-icon-theme, netrunner-gtk-theme, netrunner-ce-theme
+Description: Settings for the Netrunner (Desktop)
+ This package contains settings used by Netrunner.
+ .
+ The settings apply to cinnamon based workspaces.

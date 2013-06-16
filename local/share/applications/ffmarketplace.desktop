@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=firefox -P prism -new-tab http://marketplace.firefox.com
+Icon=/usr/share/icons/Netrunner/48/apps/mp.png
+Name=Firefox Marketplace
+NoDisplay=false
+StartupNotify=true
+Type=Application

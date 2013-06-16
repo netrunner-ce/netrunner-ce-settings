@@ -1,0 +1,11 @@
+netrunner-settings (1:13.06-1~raring) unstable; urgency=low
+
+  * Fixed dependencies
+
+ -- Leszek Lesner <leszek@zevenos.com>  Sun, 16 Jun 2013 13:02:50 +0200
+
+netrunner-settings (1:13.06) raring; urgency=low
+
+  * Initial release.
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 12 Jun 2013 13:51:36 +0200

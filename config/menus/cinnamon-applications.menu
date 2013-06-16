@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/cinnamon-applications.menu</MergeFile>
+	<DefaultLayout inline="false"/>
+	<Menu>
+		<Name>alacarte-made-d769207e-d291-11e2-9425-080027ca9931</Name>
+		<Directory>alacarte-made-d769207e-d291-11e2-9425-080027ca9931.directory</Directory>
+		<Include>
+			<Filename>ubuntu-amazon-default.desktop</Filename>
+		</Include>
+		<AppDir>/home/leszek/.local/share/applications</AppDir>
+		<Include>
+			<Filename>cuttherope.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>dropboxweb.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>duckhunt.desktop.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>facebook.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>ffmarketplace-2.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>calendar.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>google-contacts.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>docs.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>gmail.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>maps.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>jacknjoe.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>runners-id.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>twitter.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>youtube.desktop</Filename>
+		</Include>
+		<Exclude>
+			<Filename>wearehunted.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>Universal Access</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Preferences</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Administration</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>wine-wine</Menuname>
+		<Menuname>Accessories</Menuname>
+		<Menuname>alacarte-made-d769207e-d291-11e2-9425-080027ca9931</Menuname>
+		<Merge type="files"/>
+	</Layout>
+	<Menu>
+		<Name>Other</Name>
+		<Exclude>
+			<Filename>ffmarketplace.desktop</Filename>
+		</Exclude>
+		<AppDir>/etc/skel/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>qmmp_enqueue-2.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>UbuntuOneMusiconeubuntucom.desktop</Filename>
+		</Exclude>
+		<DirectoryDir>/etc/skel/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+</Menu>

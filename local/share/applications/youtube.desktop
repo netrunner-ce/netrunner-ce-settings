@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=firefox -P prism -new-tab  http://www.youtube.com
+Icon=/usr/share/icons/Netrunner/scalable/apps/youtube_icon.png
+Name=Youtube
+NoDisplay=false
+StartupNotify=true
+Type=Application
+Hidden=false

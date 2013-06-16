@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=firefox -P prism -new-tab http://cuttherope.ie
+Icon=/usr/share/icons/Netrunner/scalable/apps/Icon-cuttherope.png
+Name=Cut The Rope
+NoDisplay=false
+StartupNotify=true
+Type=Application
+Hidden=false

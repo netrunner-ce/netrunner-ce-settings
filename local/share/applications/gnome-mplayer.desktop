@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=AudioVideo;Audio;Video;Player;TV;
+Comment=Play your media
+Exec=gnome-mplayer %U
+GenericName=Media Player
+Icon=gnome-mplayer
+Name=GNOME MPlayer
+NoDisplay=true
+StartupNotify=true
+Type=Application
+Version=1.0
