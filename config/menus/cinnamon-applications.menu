@@ -12,7 +12,7 @@
 		<Include>
 			<Filename>ubuntu-amazon-default.desktop</Filename>
 		</Include>
-		<AppDir>/home/leszek/.local/share/applications</AppDir>
+		<AppDir>/etc/skel/.local/share/applications</AppDir>
 		<Include>
 			<Filename>cuttherope.desktop</Filename>
 		</Include>
@@ -59,25 +59,6 @@
 			<Filename>wearehunted.desktop</Filename>
 		</Exclude>
 	</Menu>
-	<Layout>
-		<Merge type="menus"/>
-		<Menuname>Universal Access</Menuname>
-		<Menuname>Education</Menuname>
-		<Menuname>Office</Menuname>
-		<Menuname>Preferences</Menuname>
-		<Menuname>Development</Menuname>
-		<Menuname>Graphics</Menuname>
-		<Menuname>Internet</Menuname>
-		<Menuname>Multimedia</Menuname>
-		<Menuname>Other</Menuname>
-		<Menuname>Games</Menuname>
-		<Menuname>Administration</Menuname>
-		<Menuname>System</Menuname>
-		<Menuname>wine-wine</Menuname>
-		<Menuname>Accessories</Menuname>
-		<Menuname>alacarte-made-d769207e-d291-11e2-9425-080027ca9931</Menuname>
-		<Merge type="files"/>
-	</Layout>
 	<Menu>
 		<Name>Other</Name>
 		<Exclude>
@@ -92,4 +73,78 @@
 		</Exclude>
 		<DirectoryDir>/etc/skel/.local/share/desktop-directories</DirectoryDir>
 	</Menu>
+	<Menu>
+		<Name>Universal Access</Name>
+		<DirectoryDir>/etc/skel/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+	<Menu>
+		<Name>Education</Name>
+		<DirectoryDir>/etc/skel/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+	<Menu>
+		<Name>Internet</Name>
+		<Exclude>
+			<Filename>firefox.desktop</Filename>
+		</Exclude>
+		<AppDir>/etc/skel/.local/share/applications</AppDir>
+	</Menu>
+	<Menu>
+		<Name>Preferences</Name>
+		<Exclude>
+			<Filename>gnome-online-accounts-panel.desktop</Filename>
+		</Exclude>
+		<AppDir>/etc/skel/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>gnome-credentials-panel.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>landscape-client-settings.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>ubuntuone-control-panel-qt-gnome.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>Administration</Name>
+		<DirectoryDir>/etc/skel/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+	<Menu>
+		<Name>System</Name>
+		<Exclude>
+			<Filename>gnome-control-center.desktop</Filename>
+		</Exclude>
+		<AppDir>/etc/skel/.local/share/applications</AppDir>
+		<Exclude>
+			<Filename>debian-uxterm.desktop</Filename>
+		</Exclude>
+		<Exclude>
+			<Filename>debian-xterm.desktop</Filename>
+		</Exclude>
+	</Menu>
+	<Menu>
+		<Name>Multimedia</Name>
+		<Exclude>
+			<Filename>totem.desktop</Filename>
+		</Exclude>
+		<AppDir>/etc/skel/.local/share/applications</AppDir>
+	</Menu>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>Universal Access</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Development</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Administration</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>wine-wine</Menuname>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Preferences</Menuname>
+		<Menuname>alacarte-made-d769207e-d291-11e2-9425-080027ca9931</Menuname>
+		<Merge type="files"/>
+	</Layout>
 </Menu>

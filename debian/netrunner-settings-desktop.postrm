@@ -1,0 +1,32 @@
+#! /bin/sh
+set -e
+
+#DEBHELPER#
+
+#!/bin/bash
+
+if [ remove = "$1" -o purge = "$1" ]; then
+   dpkg-divert --package netrunner-settings-desktop --remove --rename --divert /etc/lsb-release.orig /etc/lsb-release
+fi 
+
+
+case "$1" in
+  purge)
+		# remove symbolic links on purge again (careful, only if these *are* symlinks, 
+		# also don't bail out if s.th. goes wrong (e.g. /media mounted r.o.)
+		if [ -h /.hidden ]; then
+			rm /.hidden || \
+				echo "Could not remove symlink /.hidden, skipping."
+		fi
+		if [ -h /media/.hidden ]; then
+			rm /media/.hidden || \
+				echo "Could not remove symlink /media/.hidden, skipping."
+		fi
+	;;
+
+  remove)
+    if update-alternatives --query newt-palette | grep -qs "Value: /etc/newt/palette.original"; then
+      update-alternatives --auto newt-palette || true
+    fi
+  ;;
+esac

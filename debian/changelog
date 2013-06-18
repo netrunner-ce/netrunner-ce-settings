@@ -1,4 +1,53 @@
-netrunner-settings (1:13.06-1~raring) unstable; urgency=low
+netrunner-settings (1:13.06-9~raring) raring; urgency=low
+
+  * Corrected default background which got corrupted due to last commit
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 18 Jun 2013 13:27:01 +0200
+
+netrunner-settings (1:13.06-8~raring) raring; urgency=low
+
+  * Use vlc as default video player
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 18 Jun 2013 12:36:27 +0200
+
+netrunner-settings (1:13.06-7~raring) raring; urgency=low
+
+  * Hide totem in menu
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 18 Jun 2013 12:02:08 +0200
+
+netrunner-settings (1:13.06-6~raring) raring; urgency=low
+
+  * Hide menu directories whith duplicate entries
+  * Use firefox-tab as favorite and quicklaunch item
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 18 Jun 2013 11:58:19 +0200
+
+netrunner-settings (1:13.06-5~raring) raring; urgency=low
+
+  * Removed duplicates in menu and reorderd menu
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 18 Jun 2013 11:02:44 +0200
+
+netrunner-settings (1:13.06-4~raring) raring; urgency=low
+
+  * Updated dconf for correct wallpaper and theme setting
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 17 Jun 2013 19:37:23 +0200
+
+netrunner-settings (1:13.06-3~raring) raring; urgency=low
+
+  * Fix: Copy config files to /etc/skel/.config not /etc/skel/config
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 17 Jun 2013 15:32:52 +0200
+
+netrunner-settings (1:13.06-2~raring) raring; urgency=low
+
+  * Added preinst and postrm scripts for lsb-release file
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 17 Jun 2013 13:32:02 +0200
+
+netrunner-settings (1:13.06-1~raring) raring; urgency=low
 
   * Fixed dependencies
 

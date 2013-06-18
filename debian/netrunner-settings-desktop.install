@@ -1,4 +1,4 @@
-config/*	etc/skel/config/
+config/*	etc/skel/.config/
 local/*	etc/skel/.local/
 skel/*	etc/skel/
 skel/.qmmp	etc/skel/
