@@ -9,7 +9,7 @@ Package: netrunner-settings-desktop
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, python, ttf-ubuntu-font-family,
- libnewt0.52 (>= 0.52.11-2ubuntu7), netrunner-ce-default-wallpaper, netrunner-icon-theme, netrunner-gtk-theme, netrunner-ce-theme
+ libnewt0.52 (>= 0.52.11-2ubuntu7), netrunner-ce-default-wallpaper, netrunner-icon-theme, netrunner-gtk-theme, netrunner-ce-theme, fonts-roboto
 Description: Settings for the Netrunner (Desktop)
  This package contains settings used by Netrunner.
  .

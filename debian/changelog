@@ -1,3 +1,10 @@
+netrunner-settings (1:13.06-10~raring) raring; urgency=low
+
+  * Set roboto as default font
+  * Changed Description of lsb-release to Netrunner CE 13.06
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 20 Jun 2013 12:07:55 +0200
+
 netrunner-settings (1:13.06-9~raring) raring; urgency=low
 
   * Corrected default background which got corrupted due to last commit
